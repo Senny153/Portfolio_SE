@@ -3,221 +3,321 @@
 <html lang="en">
 
 <head>
-    <title>resume.me</title>
+    <title>Senturran Elangovan</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <!-- Navigation Bar -->
-    <div id="intro">
-        <div style="width: 50%">
-            <h5 id="name">
-                Senturran Elangovan
-            </h5>
-            <span id="major">
-                Senior in Electrical Engineering
-            </span>
+    <nav id="intro">
+        <div class="nav-identity">
+            <h5 id="name">Senturran Elangovan</h5>
+            <span id="major">Senior in Electrical Engineering</span>
         </div>
         <div id="navbar">
-            <ul style="display: flex; list-style: none">
-                <li>
-                    <a href="index.html#footer">
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#projects">
-                        Projects
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#resume">
-                        Resume
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#About_me">
-                        About me
-                    </a>
-                </li>
+            <ul class="nav-list">
+                <li><a href="index.html#About_me">About</a></li>
+                <li><a href="index.html#resume">Resume</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#footer">Contact</a></li>
             </ul>
         </div>
-    </div>
+    </nav>
 
-    <!-- Picture and About Me Description -->
-    <div id="About_me">
+    <!-- About Me -->
+    <section id="About_me">
         <div id="my_image">
-            <img id="Senturran" src="Senturran.png" alt="Senturran">
+            <img id="Senturran" src="me.JPG" alt="Senturran Elangovan">
         </div>
         <div id="Hello">
-            <h1>Hello</h1>
-            <p class="description" style="padding: 0; width: 400px">
-                Electrical Engineering senior with advanced coursework in power systems, 
-                control theory, and signal processing. Strong foundation in electrical circuits 
-                and computer systems, with hands-on experience analyzing real-world signals, 
-                including EEG data. Interested in applying theory-driven approaches to practical 
-                engineering problems through interdisciplinary collaboration.
+            <p class="hello-label">Hello, I'm</p>
+            <h1>Senturran</h1>
+            <p class="description">
+                Electrical engineering senior with coursework in power systems, control theory, 
+                and signal processing, supported by hands-on experience building and analyzing 
+                hardware systems. I have worked on projects involving PCB-based circuits, power 
+                converters, and EEG signal acquisition, applying circuit design, simulation, and 
+                testing to real-world signals. I am interested in applying theory-driven approaches 
+                to practical engineering problems, particularly in power and energy systems, while 
+                continuing to learn through interdisciplinary collaboration.
             </p>
         </div>
-
-    </div>
+    </section>
 
     <!-- Resume -->
-    <div style="text-align: center
-">
+    <section class="resume-section">
         <h2 id="resume">Resume</h2>
+
         <div class="box1">
             <h3>Education</h3>
-            <br>
-            <div>
-                <div>
-                    <h4>Bachelor of Science in Electrical
-                        Engineering (BSEE)</h4>
-                </div>
+            <div class="box-content">
+                <h4>Bachelor of Science in Electrical Engineering (BSEE)</h4>
                 <p class="description">
-                    I am currently pursuing a Bachelor of Science in Electrical
-                    Engineering (BSEE) at the University of Illinois at
-                    Urbana-Champaign, with an expected graduation in May 2026.
-                    I have maintained a strong academic record, currently holding
-                    a GPA of 3.79. My coursework has focused on foundational
-                    principles in electrical engineering, preparing me with a
-                    solid understanding of circuits, electronics, and systems analysis.
+                    I am pursuing a Bachelor of Science in Electrical Engineering at the University 
+                    of Illinois Urbana-Champaign, with an expected graduation in May 2026 and a GPA 
+                    of 3.52. My coursework includes power system analysis, power electronics, control 
+                    systems, electronic circuits, and biomedical instrumentation. I have applied 
+                    these concepts through hands-on projects involving PCB-based power converters, 
+                    resonant power systems, and mixed-signal hardware, including EEG signal acquisition.
                 </p>
             </div>
         </div>
 
         <div class="box1">
             <h3>Coursework</h3>
-            <br>
-            <div>
-                <div>
-                    <h4>Analog Signal Processing</h4>
-                </div>
+            <div class="box-content">
+                <h4>Power Electronics</h4>
                 <p class="description">
-                    Acquired mathematical skills to manipulate and process signals with applied lab experience using
-                    Fourier
-                    transforms and phasor circuits.
+                    Analyzed and designed DC-DC converter topologies, focusing on switching 
+                    behavior, efficiency, and component selection. Applied concepts through 
+                    simulation and hardware-based validation of converter performance.
                 </p>
             </div>
-            <div>
-                <div>
-                    <h4>Digital Systems Laboratory</h4>
-                </div>
+            <div class="box-content">
+                <h4>Power Electronics Control</h4>
                 <p class="description">
-                    Collaborated with a teammate to design and construct hardware systems with FPGA board, involving
-                    arithmetic, logic, interdevice handshaking and user interface
+                    Developed control strategies for power converters, including feedback 
+                    loop design and stability analysis. Explored trade-offs between transient 
+                    response, overshoot, and system bandwidth through modeling and testing.
                 </p>
             </div>
+            <div class="box-content">
+                <h4>Electronic Circuits</h4>
+                <p class="description">
+                    Designed and analyzed analog circuits, including amplifiers and filtering 
+                    stages, with emphasis on real-world non-idealities and circuit behavior 
+                    through simulation and lab testing.
+                </p>
+            </div>
+            <div class="box-content">
+                <h4>Digital Systems Laboratory</h4>
+                <p class="description">
+                    Designed and implemented FPGA-based hardware systems, including logic design, 
+                    inter-device communication, and user interface components. Focused on system 
+                    integration, debugging, and verification.
+                </p>
+            </div>
+
         </div>
 
         <div class="box2">
-            <ul>
-                <li class="skill">
-                    <h3>Technical Skills</h3>
-                    <ol class="skill-list">
-                        <li>★★★★☆ &emsp; C</li>
-                        <li>★★☆☆☆ &emsp; Python</li>
-                        <li>★★☆☆☆ &emsp; System Verilog</li>
-                        <li>★★★☆☆ &emsp; HTML+CSS Web Development</li>
-                    </ol>
-                </li>
-                <li class="skill">
-                    <h3>Professional Skills</h3>
-                    <ol class="skill-list">
-                        <li>Organizational Skills</li>
-                        <li>Communication</li>
-                        <li>Problem Solving</li>
-                        <li>Leadership</li>
-                        <li>Team Management</li>
-                        <li>Event Planning</li>
-                    </ol>
-                </li>
-                <li class="skill">
-                    <h3>Language</h3>
-                    <ol class="skill-list">
-                        <li>English</li>
-                        <li>Malay</li>
-                        <li>Tamil</li>
-                    </ol>
-                </li>
-            </ul>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3>Programming</h3>
+                    <ul class="skill-list">
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>SystemVerilog</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Design and Simulation</h3>
+                    <ul class="skill-list">
+                        <li>MATLAB</li>
+                        <li>LTSpice</li>
+                        <li>KiCAD</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Hardware Lab</h3>
+                    <ul class="skill-list">
+                        <li>PCB Design</li>
+                        <li>ADS1299</li>
+                        <li>Reflow Soldering</li>
+                        <li>PCB Assembly</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </section>
 
-        </div>
-    </div>
-    <div>
+    <!-- Projects -->
+    <section class="projects-section">
         <h2 id="projects">Projects</h2>
-    </div>
 
-    <div>
-        <ul style="list-style: none">
+        <ul class="project-list">
             <li class="box3">
-                <div style="width: 50%; max-width: 360px; text-align: right; margin-top: 24px;">
-                    <img src="pong.png" alt="pong" style="width: 100%">
+                <div class="project-image">
+                    <img src="pong.png" alt="Pong game screenshot">
                 </div>
                 <div class="box4">
                     <h3>Pong</h3>
-                    <p class="description" >
-                    <!-- style="padding-left: 32px; padding-right: 200px;"> -->
+                    <p class="project-year">2022</p>
+                    <p class="description">
                         This Python script utilizes the turtle module to recreate the
                         excitement of a Ping Pong game. Players control paddles using
-                        keyboard inputs ('q', 'a' for player A and 'p', 'l' for player
-                        B) to hit a ball back and forth across the screen. Each time
-                        the ball passes the left or right boundary, the corresponding
-                        player scores a point. The game features simple graphics with
-                        paddles and a ball on a black background, while a scoreboard
-                        at the top displays the current score. The game ends when
-                        one player reaches a predetermined score limit.
+                        keyboard inputs ('q', 'a' for player A and 'p', 'l' for player B)
+                        to hit a ball back and forth across the screen. Each time the ball
+                        passes the left or right boundary, the corresponding player scores
+                        a point. The game features simple graphics with paddles and a ball
+                        on a black background, while a scoreboard at the top displays the
+                        current score. The game ends when one player reaches a predetermined
+                        score limit.
                     </p>
                 </div>
             </li>
-            <br>
-            <br>
+
             <li class="box3">
-                <div style="width: 50%; max-width: 360px; text-align: right; margin-top: 24px;">
-                    <img src="toycar.png" alt="pong" style="width:100%">
+                <div class="project-image">
+                    <img src="toycar.png" alt="Autonomous toy car">
                 </div>
                 <div class="box4">
                     <h3>Autonomous Obstacle-Avoiding Toy Car</h3>
-                    <p class="description" style="padding-left: 32px; padding-right: 200px;">
+                    <p class="project-year">2022</p>
+                    <p class="description">
                         I designed and built a customizable toy car using 3D printed
                         components, motors, and a simple circuit powered by a battery.
                         Initially, the car featured adjustable speeds controlled by
                         potentiometers, enabling directional changes through differential
-                        wheel speeds. Later, I enhanced the design by integrating
-                        ultrasound sensors that autonomously steer the car away from
-                        obstacles detected on either side.
+                        wheel speeds. Later, I enhanced the design by integrating ultrasound
+                        sensors that autonomously steer the car away from obstacles detected
+                        on either side.
                     </p>
                 </div>
             </li>
-        </ul>
-    </div>
 
-    <div id="footer">
-        <div style="width: 50%">
+            <li class="box3">
+                <div class="project-image">
+                    <img src="red_board.jpeg" alt="Buck/Boost converter">
+                </div>
+                <div class="box4">
+                    <h3>Buck / Boost Converter Platform</h3>
+                    <p class="project-year">2025</p>
+                    <p class="description">
+                        Assembled and tested buck and boost converter circuits based on 
+                        provided designs, analyzing switching behavior, output ripple, and 
+                        efficiency. Validated performance through LTspice simulation and 
+                        oscilloscope measurements, gaining hands-on experience with power 
+                        conversion and non-ideal effects.
+                    </p>
+                </div>
+            </li>
+
+            <li class="box3">
+                <div class="project-image">
+                    <img src="blue_board.jpeg" alt="PWM generation board">
+                </div>
+                <div class="box4">
+                    <h3>PWM Generation & Dead-Time Control Board</h3>
+                    <p class="project-year">2025</p>
+                    <p class="description">
+                        Implemented a PWM generation system using both Arduino-based control 
+                        and analog circuitry, including sawtooth waveform generation via an 
+                        integrator and comparator-based modulation. Tuned and analyzed 
+                        adjustable dead-time to study switching transitions and prevent 
+                        shoot-through in power stages.
+                    </p>
+                </div>
+            </li>
+
+            <li class="box3">
+                <div class="project-image">
+                    <img src="speaker.jpeg" alt="PWM-based speaker ">
+                </div>
+                <div class="box4">
+                    <h3>Audio PWM Amplifier Board</h3>
+                    <p class="project-year">2025</p>
+                    <p class="description">
+                        Built a PWM-based audio system using an analog comparator, where 
+                        an audio signal served as a reference to generate a modulated 
+                        PWM output capable of driving a speaker. Evaluated signal fidelity, 
+                        switching behavior, and filtering considerations, including the 
+                        effects of electrical filtering and mechanical resonance in the 
+                        speaker during hardware testing.
+                    </p>
+                </div>
+            </li>
+
+            <li class="box3">
+                <div class="project-image">
+                    <img src="SRC_conv.jpeg" alt="SRC">
+                </div>
+                <div class="box4">
+                    <h3>Isolated Series Resonant Converter (SRC)</h3>
+                    <p class="project-year">2025</p>
+                    <p class="description">
+                        Designed and built an isolated series resonant converter with a 
+                        custom transformer and resonant tank to achieve soft-switching operation. 
+                        Modeled system behavior in LTspice, accounting for parasitics and 
+                        resonant characteristics, and validated performance through hardware testing. 
+                        Explored trade-offs between switching frequency, efficiency, and load conditions, 
+                        gaining insight into real-world non-idealities and converter behavior.
+                    </p>
+                </div>
+            </li>
+
+            <li class="box3">
+                <div class="project-image">
+                    <img src="EEG_1.png" alt="Testing the real-time sleep detection with neural signals">
+                </div>
+                <div class="box4">
+                    <h3> Single Channel EEG Sleep Detection System</h3>
+                    <p class="project-year">2025</p>
+                    <p class="description">
+                        Built a single-channel EEG acquisition system using flat-snap electrodes and an 
+                        analog front-end for neural signal monitoring. Integrated LiPo battery management 
+                        for portable operation and implemented a buzzer-based alert triggered by detected 
+                        drowsiness.
+
+                        Tested the system on more than 10 volunteers, tuning detection thresholds to improve 
+                        reliability while accounting for variations in signal quality due to factors such 
+                        as sleep patterns, caffeine intake, and skin-electrode characteristics.
+                    </p>
+                </div>
+            </li>
+
+            <li class="box3">
+                <div class="project-image">
+                    <img src="EEG_2.jpeg" alt="Device tested on one of the volunteers">
+                </div>
+                <div class="box4">
+                    <h3>3-Channel EEG SSVEP Control System</h3>
+                    <p class="project-year">2026</p>
+                    <p class="description">
+                        Developed a 3-channel EEG acquisition system for SSVEP-based control using an 
+                        STM32 microcontroller, integrating analog front-end design, LiPo battery management, 
+                        and Bluetooth communication for real-time data transmission.
+
+                        Processed multi-channel neural signals to detect frequency-based responses and 
+                        applied them to control a simple lane-shifting game, demonstrating real-time user 
+                        input via EEG. Testing on multiple volunteers was conducted to tune detection 
+                        parameters and improve decision-making reliability.
+                    </p>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-left">
+            <p class="footer-name">Senturran Elangovan</p>
+            <small>&copy; 2026 Senturran Elangovan</small>
         </div>
         <div id="footer_links">
-            <ul style="display: flex; list-style: none">
+            <ul class="footer-list">
                 <li>
-                    <a href=https://www.instagram.com/senny.me?igsh=MXAybmNvNzNyNzh1Mw%3D%3D&utm_source=qr>
-                        <img src="instagram.png" alt="instagram" style="width: 48px; height: 48px">
+                    <a href="https://www.instagram.com/senny.me?igsh=MXAybmNvNzNyNzh1Mw%3D%3D&utm_source=qr" aria-label="Instagram">
+                        <img src="instagram.png" alt="Instagram" class="footer-icon">
                     </a>
                 </li>
                 <li>
-                    <a href=https://www.linkedin.com/in/senturran-elangovan-b47489318>
-                        <img src="linkedIn.png" alt="LinkedIn" style="width: 48px; height: 48px">
+                    <a href="https://www.linkedin.com/in/senturran-elangovan-b47489318" aria-label="LinkedIn">
+                        <img src="linkedIn.png" alt="LinkedIn" class="footer-icon">
                     </a>
                 </li>
                 <li>
-                    <a href=mailto:senturrane@gmail.com>
-                        <img src="email.png" alt="Email" style="width: 48px; height: 48px">
+                    <a href="mailto:senturran.me@gmail.com" aria-label="Email">
+                        <img src="email.png" alt="Email" class="footer-icon">
                     </a>
                 </li>
             </ul>
         </div>
-    </div>
-    <div style="background-color: #DADBDD;">
-        <small> &copy; Senturran Elangovan </small>
-    </div>
-</body>
+    </footer>
 
+</body>
 </html>
