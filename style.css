@@ -113,9 +113,9 @@ a {
 }
 
 .nav-identity {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+    .nav-identity {
+        min-width: 220px;
+    }
 }
 
 #major {
@@ -158,6 +158,13 @@ a {
     padding: 96px 40px;
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.dark-photo  { display: none !important; }
+
+@media (prefers-color-scheme: dark) {
+    .light-photo { display: none !important; }
+    .dark-photo  { display: block !important; }
 }
 
 #my_image {
