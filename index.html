@@ -138,44 +138,84 @@
     <!-- Projects -->
     <section class="projects-section">
         <h2 id="projects">Projects</h2>
-
         <ul class="project-list">
+
             <li class="box3">
                 <div class="project-image">
-                    <img src="pong.png" alt="Pong game screenshot">
+                    <img src="LLC.jpeg" alt="Half-Bridge LLC Resonant Converter">
                 </div>
                 <div class="box4">
-                    <h3>Pong</h3>
-                    <p class="project-year">2022</p>
+                    <h3>Half-Bridge LLC Resonant Converter with FM Control</h3>
+                    <p class="project-year">2026</p>
                     <p class="description">
-                        This Python script utilizes the turtle module to recreate the
-                        excitement of a Ping Pong game. Players control paddles using
-                        keyboard inputs ('q', 'a' for player A and 'p', 'l' for player B)
-                        to hit a ball back and forth across the screen. Each time the ball
-                        passes the left or right boundary, the corresponding player scores
-                        a point. The game features simple graphics with paddles and a ball
-                        on a black background, while a scoreboard at the top displays the
-                        current score. The game ends when one player reaches a predetermined
-                        score limit.
+                        Designed and implemented a 25 W half-bridge LLC resonant DC-DC converter operating 
+                        from 20–28 V input to a regulated 12 V output using frequency modulation control.
+                        Designed the resonant tank and high-frequency transformer using First Harmonic 
+                        Approximation (FHA), including resonant parameter selection, magnetics design, and 
+                        flux-density verification. Developed a small-signal frequency-domain model of the 
+                        LLC converter and implemented a digital PI controller on a TI C2000 microcontroller 
+                        for closed-loop output regulation. Validated converter operation through LTspice 
+                        simulation and hardware testing, achieving up to 86.75% efficiency with verified zero-voltage 
+                        switching (ZVS). Experimental measurements included resonant tank characterization, 
+                        transient response testing, and closed-loop stability analysis using Bode plots.
                     </p>
                 </div>
             </li>
 
             <li class="box3">
                 <div class="project-image">
-                    <img src="toycar.png" alt="Autonomous toy car">
+                    <img src="EEG_2.jpeg" alt="Device tested on one of the volunteers">
                 </div>
                 <div class="box4">
-                    <h3>Autonomous Obstacle-Avoiding Toy Car</h3>
-                    <p class="project-year">2022</p>
+                    <h3>3-Channel EEG SSVEP Control System</h3>
+                    <p class="project-year">2026</p>
                     <p class="description">
-                        I designed and built a customizable toy car using 3D printed
-                        components, motors, and a simple circuit powered by a battery.
-                        Initially, the car featured adjustable speeds controlled by
-                        potentiometers, enabling directional changes through differential
-                        wheel speeds. Later, I enhanced the design by integrating ultrasound
-                        sensors that autonomously steer the car away from obstacles detected
-                        on either side.
+                        Developed a 3-channel EEG acquisition system for SSVEP-based control using an 
+                        STM32 microcontroller, integrating analog front-end design, LiPo battery management, 
+                        and Bluetooth communication for real-time data transmission.
+
+                        Processed multi-channel neural signals to detect frequency-based responses and 
+                        applied them to control a simple lane-shifting game, demonstrating real-time user 
+                        input via EEG. Testing on multiple volunteers was conducted to tune detection 
+                        parameters and improve decision-making reliability.
+                    </p>
+                </div>
+            </li>
+
+            <li class="box3">
+                <div class="project-image">
+                    <img src="SRC_conv.jpeg" alt="SRC">
+                </div>
+                <div class="box4">
+                    <h3>Isolated Series Resonant Converter (SRC)</h3>
+                    <p class="project-year">2025</p>
+                    <p class="description">
+                        Designed and built an isolated series resonant converter with a 
+                        custom transformer and resonant tank to achieve soft-switching operation. 
+                        Modeled system behavior in LTspice, accounting for parasitics and 
+                        resonant characteristics, and validated performance through hardware testing. 
+                        Explored trade-offs between switching frequency, efficiency, and load conditions, 
+                        gaining insight into real-world non-idealities and converter behavior.
+                    </p>
+                </div>
+            </li>
+
+            <li class="box3">
+                <div class="project-image">
+                    <img src="EEG_1.png" alt="Testing the real-time sleep detection with neural signals">
+                </div>
+                <div class="box4">
+                    <h3> Single Channel EEG Sleep Detection System</h3>
+                    <p class="project-year">2025</p>
+                    <p class="description">
+                        Built a single-channel EEG acquisition system using flat-snap electrodes and an 
+                        analog front-end for neural signal monitoring. Integrated LiPo battery management 
+                        for portable operation and implemented a buzzer-based alert triggered by detected 
+                        drowsiness.
+
+                        Tested the system on more than 10 volunteers, tuning detection thresholds to improve 
+                        reliability while accounting for variations in signal quality due to factors such 
+                        as sleep patterns, caffeine intake, and skin-electrode characteristics.
                     </p>
                 </div>
             </li>
@@ -234,64 +274,6 @@
 
             <li class="box3">
                 <div class="project-image">
-                    <img src="SRC_conv.jpeg" alt="SRC">
-                </div>
-                <div class="box4">
-                    <h3>Isolated Series Resonant Converter (SRC)</h3>
-                    <p class="project-year">2025</p>
-                    <p class="description">
-                        Designed and built an isolated series resonant converter with a 
-                        custom transformer and resonant tank to achieve soft-switching operation. 
-                        Modeled system behavior in LTspice, accounting for parasitics and 
-                        resonant characteristics, and validated performance through hardware testing. 
-                        Explored trade-offs between switching frequency, efficiency, and load conditions, 
-                        gaining insight into real-world non-idealities and converter behavior.
-                    </p>
-                </div>
-            </li>
-
-            <li class="box3">
-                <div class="project-image">
-                    <img src="EEG_1.png" alt="Testing the real-time sleep detection with neural signals">
-                </div>
-                <div class="box4">
-                    <h3> Single Channel EEG Sleep Detection System</h3>
-                    <p class="project-year">2025</p>
-                    <p class="description">
-                        Built a single-channel EEG acquisition system using flat-snap electrodes and an 
-                        analog front-end for neural signal monitoring. Integrated LiPo battery management 
-                        for portable operation and implemented a buzzer-based alert triggered by detected 
-                        drowsiness.
-
-                        Tested the system on more than 10 volunteers, tuning detection thresholds to improve 
-                        reliability while accounting for variations in signal quality due to factors such 
-                        as sleep patterns, caffeine intake, and skin-electrode characteristics.
-                    </p>
-                </div>
-            </li>
-
-            <li class="box3">
-                <div class="project-image">
-                    <img src="EEG_2.jpeg" alt="Device tested on one of the volunteers">
-                </div>
-                <div class="box4">
-                    <h3>3-Channel EEG SSVEP Control System</h3>
-                    <p class="project-year">2026</p>
-                    <p class="description">
-                        Developed a 3-channel EEG acquisition system for SSVEP-based control using an 
-                        STM32 microcontroller, integrating analog front-end design, LiPo battery management, 
-                        and Bluetooth communication for real-time data transmission.
-
-                        Processed multi-channel neural signals to detect frequency-based responses and 
-                        applied them to control a simple lane-shifting game, demonstrating real-time user 
-                        input via EEG. Testing on multiple volunteers was conducted to tune detection 
-                        parameters and improve decision-making reliability.
-                    </p>
-                </div>
-            </li>
-
-            <li class="box3">
-                <div class="project-image">
                     <img src="chip8_1.jpeg" alt="CHIP-8 emulator running on FPGA with HDMI output">
                 </div>
                 <div class="box4">
@@ -313,6 +295,45 @@
                 </div>
             </li>
 
+            <li class="box3">
+                <div class="project-image">
+                    <img src="pong.png" alt="Pong game screenshot">
+                </div>
+                <div class="box4">
+                    <h3>Pong</h3>
+                    <p class="project-year">2022</p>
+                    <p class="description">
+                        This Python script utilizes the turtle module to recreate the
+                        excitement of a Ping Pong game. Players control paddles using
+                        keyboard inputs ('q', 'a' for player A and 'p', 'l' for player B)
+                        to hit a ball back and forth across the screen. Each time the ball
+                        passes the left or right boundary, the corresponding player scores
+                        a point. The game features simple graphics with paddles and a ball
+                        on a black background, while a scoreboard at the top displays the
+                        current score. The game ends when one player reaches a predetermined
+                        score limit.
+                    </p>
+                </div>
+            </li>
+
+            <li class="box3">
+                <div class="project-image">
+                    <img src="toycar.png" alt="Autonomous toy car">
+                </div>
+                <div class="box4">
+                    <h3>Autonomous Obstacle-Avoiding Toy Car</h3>
+                    <p class="project-year">2022</p>
+                    <p class="description">
+                        I designed and built a customizable toy car using 3D printed
+                        components, motors, and a simple circuit powered by a battery.
+                        Initially, the car featured adjustable speeds controlled by
+                        potentiometers, enabling directional changes through differential
+                        wheel speeds. Later, I enhanced the design by integrating ultrasound
+                        sensors that autonomously steer the car away from obstacles detected
+                        on either side.
+                    </p>
+                </div>
+            </li>
         </ul>
     </section>
 
